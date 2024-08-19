@@ -9,7 +9,7 @@ def maxDefUnility(t_num, rp, rv, ep, ev, Rd, Pd, Ra, Pa, time_limit):
     time0 = time.time()
 
     # need to replace it with your own license
-    # os.environ["GRB_LICENSE_FILE"] = "/home/yfwu/gurobi.lic"
+    # os.environ["GRB_LICENSE_FILE"] = xxxxxxx
 
     utility = np.array([-100.0 for i in range(t_num)])
     strategy = np.zeros((t_num, 2 * t_num))
