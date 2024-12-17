@@ -15,7 +15,7 @@ This repository contains the source code for the experiments in a paper submitte
 ## File Structure
 ```
 └── code
-    ├── figures # Figure 2
+    ├── figures
     ├── implement # the implementation of MILP, TDBS, and HW
     ├── input # the input of the experiments
     ├── store_n # the stored runtime with increasing n
